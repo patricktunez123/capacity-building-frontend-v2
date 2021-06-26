@@ -1,0 +1,33 @@
+@import "../../variables";
+
+.coder--header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $site-paddingp-tb $site-paddingp-lr;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li {
+        list-style: none;
+        a {
+          text-decoration: none;
+          margin-right: 1rem;
+          font-size: 1.2rem;
+          color: $dark-color;
+        }
+        // &:last-child {
+        //   margin: 0;
+        //   color: brown;
+        // }
+      }
+    }
+  }
+}
