@@ -18,8 +18,8 @@ const Header = () => {
         </ul>
       </div>
       <div className="right">
-        <button>Sign or Signup</button>
-        <button>Donate</button>
+        <button className="btn-outline">Sign or Signup</button>
+        <button className="btn-outline">Donate</button>
       </div>
     </div>
   );

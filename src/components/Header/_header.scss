@@ -1,16 +1,25 @@
 @import "../../variables";
 
 .coder--header {
+  background: #fff;
   height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: $site-paddingp-tb $site-paddingp-lr;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
   .left {
     display: flex;
     justify-content: center;
     align-items: center;
+    img {
+      object-fit: contain;
+    }
     ul {
       display: flex;
       justify-content: center;
@@ -29,5 +38,8 @@
         // }
       }
     }
+  }
+  .right button:first-child {
+    margin-right: 1rem;
   }
 }

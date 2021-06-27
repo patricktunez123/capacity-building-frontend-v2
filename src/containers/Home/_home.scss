@@ -2,4 +2,33 @@
 
 .coder--home {
   min-height: 90vh;
+  // background-color: #ffffff;
+  background-image: url("../../assets/img/bgs/bg-code-2.svg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  .hero--content {
+    display: flex;
+    flex-direction: column;
+    width: 28vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: flex-start;
+    padding: $site-paddingp-tb $site-paddingp-lr;
+    position: relative;
+    h1 {
+      color: $header-color;
+    }
+    p {
+    }
+    .coder--home--btns {
+      position: absolute;
+      bottom: 0;
+      left: $site-paddingp-lr;
+      button:first-child {
+        margin-right: 1rem;
+      }
+    }
+  }
 }

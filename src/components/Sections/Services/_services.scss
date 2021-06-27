@@ -1,0 +1,12 @@
+@import "../../../variables";
+
+.coder--services {
+  min-height: 100vh;
+  background: $grey-color;
+  .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

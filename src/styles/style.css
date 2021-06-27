@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 *,
 *::after,
 *::before {
@@ -8,5 +9,47 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #6084a4;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  background: #44ce6f;
+  color: #e7f9ec;
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  border-radius: 300000000px;
+}
+
+.btn-outline {
+  border: 1px solid #44ce6f;
+  cursor: pointer;
+  background: transparent;
+  color: #032b8d;
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  border-radius: 300000000px;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3f3d56;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #44ce6f;
 }
 /*# sourceMappingURL=style.css.map */

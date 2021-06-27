@@ -1,0 +1,35 @@
+@import "../../../variables";
+
+.coder--program-one {
+  height: 100vh;
+  background: url("../../../assets/img/mobile.svg"), #3f3d56;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-attachment: fixed;
+  color: $pure-white-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  .coder--program--content-one {
+    padding: $site-paddingp-tb $site-paddingp-lr;
+    width: 90vh;
+  }
+}
+
+.coder--program-two {
+  height: 100vh;
+  background: url("../../../assets/img/code_review.svg"), #3f3d56;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-attachment: fixed;
+  color: $pure-white-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  .coder--program--content-two {
+    padding: $site-paddingp-tb $site-paddingp-lr;
+    width: 90vh;
+  }
+}
