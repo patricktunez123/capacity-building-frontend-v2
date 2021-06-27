@@ -14,26 +14,47 @@ body {
   color: $text-color;
   font-weight: 400;
   font-size: 16px;
+  background: $grey-color;
+  overflow-x: hidden;
 }
 
-.btn {
+.coder--btn {
   border: none;
   cursor: pointer;
   background: $green-color;
   color: $white-color;
-  padding: 0.9rem 1rem;
+  padding: 0.7rem 1rem;
   font-size: 1rem;
   border-radius: 300000000px;
 }
 
-.btn-outline {
+.coder--btn-outline {
   border: 1px solid $green-color;
   cursor: pointer;
   background: transparent;
   color: $dark-color;
-  padding: 0.9rem 1rem;
+  padding: 0.7rem 1rem;
   font-size: 1rem;
   border-radius: 300000000px;
+}
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.sub-title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.link {
+  color: $green-color;
+  text-decoration: none;
+  font-weight: 500;
+  &:hover {
+    text-decoration: underline;
+    color: $green-color;
+  }
 }
 ::-webkit-scrollbar {
   width: 0.5em;
@@ -50,6 +71,4 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: $green-color;
-}
-.coder--container {
 }

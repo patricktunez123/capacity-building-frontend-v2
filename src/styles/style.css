@@ -14,26 +14,50 @@ body {
   color: #6084a4;
   font-weight: 400;
   font-size: 16px;
+  background: #f7fafd;
+  overflow-x: hidden;
 }
 
-.btn {
+.coder--btn {
   border: none;
   cursor: pointer;
   background: #44ce6f;
   color: #e7f9ec;
-  padding: 0.9rem 1rem;
+  padding: 0.7rem 1rem;
   font-size: 1rem;
   border-radius: 300000000px;
 }
 
-.btn-outline {
+.coder--btn-outline {
   border: 1px solid #44ce6f;
   cursor: pointer;
   background: transparent;
   color: #032b8d;
-  padding: 0.9rem 1rem;
+  padding: 0.7rem 1rem;
   font-size: 1rem;
   border-radius: 300000000px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sub-title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.link {
+  color: #44ce6f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #44ce6f;
 }
 
 ::-webkit-scrollbar {

@@ -3,10 +3,47 @@
 .coder--services {
   min-height: 100vh;
   background: $grey-color;
+  padding: $site-paddingp-tb $site-paddingp-lr;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
   .top {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
+  }
+  .bottom {
+    margin-top: 1rem;
+    .service--row {
+      justify-content: space-around;
+      .coder--service {
+        background: $pure-white-color;
+        margin-top: 2rem;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+          rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        cursor: pointer;
+        &:hover {
+          .sub-title {
+            color: $green-color;
+            transition-duration: 300ms;
+            transition-property: all;
+            transition-timing-function: ease-in-out;
+          }
+        }
+
+        .links {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          column-gap: 10px;
+        }
+      }
+    }
   }
 }

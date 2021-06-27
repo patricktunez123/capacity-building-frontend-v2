@@ -1,0 +1,19 @@
+@import "../../variables";
+
+.coder--footer {
+  height: 100vh;
+  background: $primary-color;
+  position: relative;
+  .footer--bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.1rem solid #464749;
+    color: $pure-white-color;
+    position: absolute;
+    padding: 1rem 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}

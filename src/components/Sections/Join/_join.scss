@@ -1,0 +1,24 @@
+@import "../../../variables";
+
+.coder--banner {
+  background: $primary-color;
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  margin-top: 10rem;
+  z-index: 1;
+}
+
+.coder--banner::before {
+  content: "";
+  background: inherit;
+  height: calc(100vh - 60vh);
+  width: 100%;
+  position: absolute;
+  transform: skewY(5deg);
+  transform-origin: top right;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}

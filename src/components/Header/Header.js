@@ -12,14 +12,14 @@ const Header = () => {
         <ul>
           {menus.map((menu) => (
             <li key={menu.id}>
-              <Link to="/">{menu.title}</Link>
+              <Link to={menu.url}>{menu.title}</Link>
             </li>
           ))}
         </ul>
       </div>
       <div className="right">
-        <button className="btn-outline">Sign or Signup</button>
-        <button className="btn-outline">Donate</button>
+        <button className="coder--btn-outline">Sign or Signup</button>
+        <button className="coder--btn-outline">Donate</button>
       </div>
     </div>
   );

@@ -2,7 +2,8 @@
 
 .coder--program-one {
   height: 100vh;
-  background: url("../../../assets/img/mobile.svg"), #3f3d56;
+  width: 100vw;
+  background: url("../../../assets/img/mobile.svg"), $primary-color;
   background-repeat: no-repeat;
   background-position: bottom right;
   background-attachment: fixed;
@@ -13,16 +14,15 @@
   align-items: flex-start;
   .coder--program--content-one {
     padding: $site-paddingp-tb $site-paddingp-lr;
-    width: 90vh;
+    width: 85vh;
   }
 }
 
 .coder--program-two {
   height: 100vh;
-  background: url("../../../assets/img/code_review.svg"), #3f3d56;
+  background: url("../../../assets/img/code_review.svg"), $primary-color;
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-attachment: fixed;
   color: $pure-white-color;
   display: flex;
   flex-direction: column;
@@ -30,6 +30,6 @@
   align-items: flex-start;
   .coder--program--content-two {
     padding: $site-paddingp-tb $site-paddingp-lr;
-    width: 90vh;
+    width: 85vh;
   }
 }
